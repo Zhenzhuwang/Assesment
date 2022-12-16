@@ -90,6 +90,39 @@ public class Main {
     } catch (IOException e) {
         e.printStackTrace();
     }
+
+//     for (int i = 0; i < dataMap.get("first_name").size(); i++) {
+//   // Read the template file and perform the mail merge
+//   try (Scanner templateScanner = new Scanner(new FileReader(templateFile))) {
+//     StringBuilder emailBuilder = new StringBuilder();
+//     while (templateScanner.hasNextLine()) {
+//       String line = templateScanner.nextLine();
+      
+//       // Find all variables in the line
+//       Pattern pattern = Pattern.compile("<<(.+?)>>");
+//       Matcher matcher = pattern.matcher(line);
+//       while (matcher.find()) {
+//         String key = matcher.group(1);
+//         List<String> values = dataMap.get(key);
+//         if (values != null) {
+//           line = line.replace("<<" + key + ">>", values.get(i));
+//         }
+//       }
+//       emailBuilder.append(line).append("\n");
+//     }
+    
+//     // Split the merged email into individual emails
+//     String[] emails = emailBuilder.toString().split("\n\n");
+    
+//     // Print out the individual emails
+//     for (String email : emails) {
+//       System.out.println(email);
+//     }
+//   } catch (IOException e) {
+//       e.printStackTrace();
+//   }
+// }
 }
 }
+
      
