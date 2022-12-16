@@ -1,3 +1,5 @@
+// to compile --> javac -sourcepath src -d task01/classes task01/src/Main.java
+// to run --> java -cp task01/classes Main thankyou.csv thankyou.txt
 
 import java.io.BufferedReader;
 import java.io.FileReader;
